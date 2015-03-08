@@ -26,3 +26,5 @@ Bower is installed, but has to be used as the www-data user
 Built using puPHPet
 
 Edit details in the {project_home}/Vagrantfile and re-provision with "vagrant provision"
+
+Connect to MySQL from the host to symfony-vagrant.dev via an SSH tunnel, using the symfony-vagrant/puphpet/files/dot/ssh/id_rsa key
