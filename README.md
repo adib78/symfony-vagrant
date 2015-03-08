@@ -5,13 +5,13 @@ Building a development environment with Symfony Standard Edition.
 
 To use:
 
-1) install vagrant (www.vagrantup.com)
-2) install VirtualBox
-3) install the bindfs plugin => vagrant plugin install vagrant-bindfs
-4) fork this repo
-5) clone it => git clone git@github.com:<your-github>/<your-fork>.git
-6) start the VM => vagrant up
-7) edit your hosts file => 192.168.56.101  symfony-vagrant.dev
+ 1) install vagrant (www.vagrantup.com)
+ 2) install VirtualBox
+ 3) install the bindfs plugin => vagrant plugin install vagrant-bindfs
+ 4) fork this repo
+ 5) clone it => git clone git@github.com:<your-github>/<your-fork>.git
+ 6) start the VM => vagrant up
+ 7) edit your hosts file => 192.168.56.101  symfony-vagrant.dev
 
 Browse to symfony-vagrant.dev
 
