@@ -196,8 +196,10 @@ ruby:
     install: '1'
     versions: {  }
 nodejs:
-    install: '0'
-    npm_packages: {  }
+    install: '1'
+    npm_packages:
+      - npm
+      - bower
 python:
     install: '1'
     packages: {  }
