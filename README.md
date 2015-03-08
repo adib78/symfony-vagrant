@@ -15,5 +15,14 @@ To use:
 
 Browse to symfony-vagrant.dev
 
-Built using puPHPet - Edit details in the {project_home}/Vagrantfile
-and re-provision with "vagrant provision"
+Bower is installed, but has to be used as the www-data user
+
+    vagrant ssh
+    sudo su www-data
+    cd /var/www
+    bower install
+    (etc)
+
+Built using puPHPet
+
+Edit details in the {project_home}/Vagrantfile and re-provision with "vagrant provision"
